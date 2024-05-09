@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="D:\webdevelopment\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+         <div class="container"> 
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#" >HOME</a></li>
+                    <li><a href="#" >ABOUT</a></li>
+                    <li><a href="#" >PROJECTS</a></li>
+                    <li><a href="#" >CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h2>GOURISHETTY BINDHU</h2>
+                
+                <H4>DEVELOPER</H4>
+            </div>
+
+         </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="picture1.jpg">
+
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">ABOUT ME</h1>
+                    <p>I am Gourishetty Bindhu from Siddipet,telangana. My parents are Srinivas , Sujatha. I am an aspiring developer. My strengths are confidence, dedication. My short term goal is to get a good job. My long term goal is building a startup.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+
+                <ul>
+                    <li><span>PYTHON</span></li>
+                    <li><span>webdevelopment</span></li>
+                    <li><span>JAVA</span></li>
+                    <li><span>SQL</span></li>
+                </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+
+                    <ul>
+                        <li><span>2021-current</span> <br> Batchelor of Technology(Information Technology) in SNIST</li>
+                        <li><span>2019-2021</span> <br> Masterminds junior college, Siddipet</li>
+                        <li><span>2018-2019</span> <br> Celestial High school, Siddipet</li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--My Projects-->
+    <div id="projects">
+        <div class="container">
+            <h2 class="sub-title"><center>My Projects</center></h2>
+            <div class="projects-list ">
+                <div>
+                    <h2><i class="fa-solid fa-person" height="5px" width="5px"></i>  Real-time pose analysis</h2>
+                    <p>Real Time Pose Analysis is a project combines computer vision techniques of both cricket signals and yoga poses using a webcam feed. By using PoseDetector module, the system detects human poses. It extracts landmark points of a human to analyze angles between them. This project detects yoga poses such as "Pranaam Asana", "Hastha Uttasana", "Hasthapadasana", "Ashwa Sanchalan Asana", "Dandasana" and "Parvatasana". This project detects cricket signals including "OUT", "6", "4" , "WIDE" and "TIME_OUT" based on predefined angle criteria. The detected yoga pose or cricket signal will be displayed on the screen.</p>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h2><i class="fa-solid fa-message-captions"></i>Basic Chatbot</h2>
+                    <p>CHATBOT using artificial intelligence employs Python with spaCy, SpeechRecognition, Matplotlib and Pillow libraries. Its command line interface integrates spaCy NLP for context-aware responses excelling in health, education and weather queries. Input can be taken from Audio and text and output will be visual and text form.</p>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h2><i class="fa-solid fa-bag-shopping"></i> Basic online shopping website</h2>
+                    <p>The Basic shopping website front page was developed using HTML, CSS, BOOTSTRAP. It displays about latest arrivals of shoes and dresses, along with the shoe guide and information about the team. Additionally, it provides details about easy payment and exchange options. </p>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h2>Flapping ball game with java</h2>
+                    <p>Flapping Ball game is and addictive and challenging game. In this players controls a small ball that continuously moves forward through a series of obstacle, typically consists a barriers in the path and there will be a gap. The objective is to navigate the ball safely without touching barriers and reach it to destination.</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 id="sub-title"><b><center>CONTACT</center></b></h2>
+                    <H4 class="c1"><i class="fa-brands fa-linkedin"></i><a href='https://www.linkedin.com/in/gourishetty-bindhu-3b4672241?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9WOm1wImSQWC4lds%2F8qKdw%3D%3D'>  linkedin</a></H4>
+                    <p class="c2"><i class="fa-sharp fa-solid fa-share"></i>gourishettybindhu@gmail.com</p>
+    
+                </div>
+                <div class="contact-right"> 
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="SUBMIT" name="submit"> SUBMIT</button>
+                    </form>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="copyright">
+             
+        </div>
+        </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
